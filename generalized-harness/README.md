@@ -48,6 +48,16 @@ python3 loop.py --init-baseline
 python3 loop.py --once --description "example iteration"
 ```
 
+## Included example: prompt optimization (CPU-safe)
+
+```bash
+cd generalized-harness/examples/prompt-optimizer
+python3 loop.py
+cat results.tsv
+```
+
+This example optimizes `subject/prompt_policy.py` against a fixed keyword-based evaluator.
+
 ## Why this structure
 
 - Preserves autoresearch's high-velocity selection loop

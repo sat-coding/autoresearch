@@ -1,0 +1,19 @@
+{
+  "outputs": [
+    {
+      "id": "pricing",
+      "input": "User asks monthly price and asks if trial exists.",
+      "response": "Our monthly price depends on plan tier. A trial is available for new users; check the pricing page for current monthly details."
+    },
+    {
+      "id": "refund",
+      "input": "User wants refund policy details.",
+      "response": "Our refund policy allows requests within 14 days of purchase, subject to policy review and eligibility conditions."
+    },
+    {
+      "id": "api",
+      "input": "User asks if API supports webhooks and rate limits.",
+      "response": "Our API supports webhook events. Rate limits apply per key and are documented in the API reference."
+    }
+  ]
+}

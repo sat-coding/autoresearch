@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pricing",
+    "input": "User asks monthly price and asks if trial exists.",
+    "required": ["price", "monthly", "trial"],
+    "forbidden": ["guarantee"],
+    "max_chars": 260
+  },
+  {
+    "id": "refund",
+    "input": "User wants refund policy details.",
+    "required": ["refund", "policy", "days"],
+    "forbidden": ["instant"],
+    "max_chars": 240
+  },
+  {
+    "id": "api",
+    "input": "User asks if API supports webhooks and rate limits.",
+    "required": ["api", "webhook", "rate"],
+    "forbidden": ["unlimited"],
+    "max_chars": 260
+  }
+]
