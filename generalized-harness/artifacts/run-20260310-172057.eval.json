@@ -1,0 +1,10 @@
+{
+  "primary_metric": 0.4,
+  "secondary": {
+    "mse": 0.4,
+    "runtime_ms": 2,
+    "complexity_penalty": 0.0
+  },
+  "status": "ok",
+  "notes": "lower is better"
+}

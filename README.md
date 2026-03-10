@@ -80,6 +80,14 @@ Seeing as there seems to be a lot of interest in tinkering with autoresearch on 
 
 I think these would be the reasonable hyperparameters to play with. Ask your favorite coding agent for help and copy paste them this guide, as well as the full source code.
 
+## Generalized harness (non-LLM-training)
+
+This repository now also includes a domain-agnostic autonomous improvement harness under:
+
+`generalized-harness/`
+
+It keeps the same keep/revert research loop abstraction while removing coupling to LLM pretraining. You can adapt it to any measurable objective by changing only the mutable subject file and evaluator target.
+
 ## Notable forks
 
 - [miolini/autoresearch-macos](https://github.com/miolini/autoresearch-macos) (MacOS)
