@@ -1,0 +1,29 @@
+{
+  "primary_metric": 0.366667,
+  "secondary": {
+    "reward": 1.9,
+    "top5": [
+      {
+        "id": "be0f98da-653b-4f63-b4f5-c3e28cb88a1f",
+        "title": "Autoresearch repo review report (karpathy/autoresearch)",
+        "project": "agent-observability-dashboard",
+        "priority": "high",
+        "column": "Inbox",
+        "score": 1.14061,
+        "blocked_count": 0
+      },
+      {
+        "id": "e9ec7a95-e52f-4c35-900a-0272178d959f",
+        "title": "sqlite-persist-check",
+        "project": "none",
+        "priority": "low",
+        "column": "Inbox",
+        "score": 0.513437,
+        "blocked_count": 0
+      }
+    ],
+    "candidate_count": 2
+  },
+  "status": "ok",
+  "notes": "lower is better (more executable high-priority top picks)"
+}
